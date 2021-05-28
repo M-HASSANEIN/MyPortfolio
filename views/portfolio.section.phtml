@@ -1,0 +1,18 @@
+<div class="row portfolio-container " data-aos="fade-up" data-aos-delay="200">
+    <?php foreach ($portfolios as $portfolio): ?>
+    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+        <div class="portfolio-wrap">
+            <img src="<?=htmlspecialchars($portfolio['image_1'])?>" class="img-fluid"
+                alt="<?=htmlspecialchars($portfolio['alt'])?>">
+            <div class="portfolio-info">
+                <h4><?=htmlspecialchars($portfolio['title'])?></h4>
+                <div class="portfolio-links">
+                    <a href="portflio-id-<?=htmlspecialchars($portfolio['id_portfolio'])?>"
+                        data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox"
+                        title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <?php endforeach?>
+</div>
