@@ -1112,6 +1112,15 @@ transition: all ease 0.3s;
   font-size: 15px;
   padding: 15px 0 0 0;
 }
+.portfolio-info .bx {
+  font-size: 24px;
+}
+.portfolio-info a{
+  display: inline-block;
+  line-height: 1;
+}
+
+
 
 @media (max-width: 992px) {
   .portfolio-details .portfolio-info {
