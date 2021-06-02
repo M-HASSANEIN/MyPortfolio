@@ -320,13 +320,6 @@
     }
     
     @media (max-width: 992px) {
-        #hero {
-            /*  text-align: center; */
-            /* background: url("../img/bg.png") top right no-repeat;
-            background-size: cover;
-            position: relative;
-            background-position: left; */
-        }
         #hero h1 {
             font-size: 32px;
             line-height: 36px;
