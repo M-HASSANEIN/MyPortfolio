@@ -24,6 +24,7 @@ if (!isset($_GET['page'])) {
 } else {
     switch ($_GET['page']) {
 
+        
         ///////////////PORTFOLIO///////////////
         case 'portflio':
             $controller = new ShowPortfolioDetailsController();
